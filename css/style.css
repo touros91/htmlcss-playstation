@@ -1,0 +1,92 @@
+/* header  */
+header {
+
+}
+
+header section {
+    background-color: black;
+    padding: 10px;
+}
+
+.scritta_logo {
+    width: 100px;
+    display: inline-block;
+}    
+.logo_playstation_blu {
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+
+header nav .row {
+    width: 100%;
+}
+
+header nav .row .col-6 {
+    display: flex;
+}
+
+
+.logo_playstation_blu img {
+    width: 100%;
+    display: block;
+}
+
+header nav li {
+    display: flex;
+    align-items: center;
+}
+
+header .row:last-child .col-6:first-child div ul li:not(:first-child) {
+    margin-right: 5px;
+}
+
+/* header .row:last-child .col-6:first-child div ul li:not(:last-child) {
+    margin-right: 10px;
+} */
+/* 
+header nav .row .col-6:first-child .collapse ul li:not(:first-child) {
+    margin-right: 30px;
+}
+header nav .row .col-6:first-child ul li:not(:first-child) {
+    margin-right: 30px;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.angle_down_grey {
+    width: 10px;
+    height: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.angle_down_grey img {
+    width: 100%;
+}
+
+.button_style {
+    display: inline-block;
+    border-radius: 30px;
+    color: white;
+    padding: -5px 20px;
+}
+
+.button_style.button_black{
+    background-color: #363636;
+}
+
+header form ul li:last-child {
+    width: 25px;
+}
+
+header form ul li:last-child a img{
+    width: 100%;
+}
+
+header form ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
