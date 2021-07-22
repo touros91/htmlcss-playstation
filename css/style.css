@@ -11,16 +11,22 @@ body {
     padding: -5px 20px;
 }
 
-.button_style.button_black{
+.button_style.button_black {
     background-color: #363636;
 }
-
-.button_style.button_red{
+.button_style.button_red {
     background-color: #CD3D10;
 }
+.button_style.button_blue {
+    background-color: #2D64E6;
+}
 
-.box_descrizione {
+
+.box_descrizione_white {
     color: white;
+}
+.box_descrizione_black {
+    color: black;
 }
 
 .descrizione_img {
@@ -35,8 +41,9 @@ body {
     margin: 30px 0;
 }
 
-h2 {
-    margin-bottom: 30px;
+.colore_azzurro {
+    color: #338AD6;
+    font-weight: 600;
 }
 
 /* header  */
@@ -138,5 +145,54 @@ main {
 .hero_bottom {
     padding-bottom: 80px;
 }
+
+.ecco_ps5 {
+    margin-bottom: 50px;
+}
+
+.ecco_ps5 .row div:first-child h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.ecco_ps5 .row div:first-child p {
+    font-size: 23px;
+    color: #787878;
+}
+
+.box_ps5 {
+    width: 600px;
+}
+
+.box_ps5 img {
+    width: 100%;
+}
+
+.ps5_item {
+    width: 120px;
+}
+.ps5_item img {
+    width: 100%;
+}
+
+.sottolineato {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #4895DA;
+}
+
+.flex_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ps5_item .col-4.col-md-2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+
 
 
