@@ -21,6 +21,23 @@ body {
     background-color: #2D64E6;
 }
 
+.button_style:hover {
+    border: 1px solid black;
+    color: white;
+    transform: scale(1.1);
+}
+
+.button_style.button_red:hover {
+    border: 1px solid white;
+    color: white;
+    transform: scale(1.1);
+}
+
+.button_style.button_black:hover {
+    border: 1px solid #2D64E6;
+    color: white;
+    transform: scale(1.1);
+}
 
 .box_descrizione_white {
     color: white;
@@ -134,7 +151,11 @@ main {
     width: 200px;
     padding-top: 30px;
     padding-right: 40px;
-    /* margin-right: 10px; */
+}
+
+.hero_item:hover img {
+    border: 2px solid #2D64E6;
+    transform: scale(1.1);
 }
 
 .hero_item img {
@@ -177,6 +198,11 @@ main {
 }
 
 .sottolineato {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #4895DA;
+}
+
+.ps5_item:hover {
     padding-bottom: 40px;
     border-bottom: 2px solid #4895DA;
 }
