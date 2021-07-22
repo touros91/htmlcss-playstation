@@ -26,12 +26,6 @@ header nav .row .col-6 {
     display: flex;
 }
 
-
-.logo_playstation_blu img {
-    width: 100%;
-    display: block;
-}
-
 header nav li {
     display: flex;
     align-items: center;
@@ -40,17 +34,6 @@ header nav li {
 header .row:last-child .col-6:first-child div ul li:not(:first-child) {
     margin-right: 5px;
 }
-
-/* header .row:last-child .col-6:first-child div ul li:not(:last-child) {
-    margin-right: 10px;
-} */
-/* 
-header nav .row .col-6:first-child .collapse ul li:not(:first-child) {
-    margin-right: 30px;
-}
-header nav .row .col-6:first-child ul li:not(:first-child) {
-    margin-right: 30px;
-} */
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
