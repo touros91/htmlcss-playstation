@@ -1,6 +1,52 @@
+/* body  */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* common  */
+.button_style {
+    display: inline-block;
+    border-radius: 30px;
+    color: white;
+    padding: -5px 20px;
+}
+
+.button_style.button_black{
+    background-color: #363636;
+}
+
+.button_style.button_red{
+    background-color: #CD3D10;
+}
+
+.box_descrizione {
+    color: white;
+}
+
+.descrizione_img {
+    width: 200px;
+}
+
+.descrizione_img img {
+    width: 100%;
+}
+
+.descrizione_testo {
+    margin: 30px 0;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
 /* header  */
 header {
-
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 header section {
@@ -12,6 +58,7 @@ header section {
     width: 100px;
     display: inline-block;
 }    
+
 .logo_playstation_blu {
     width: 60px;
     height: 60px;
@@ -50,17 +97,6 @@ header .row:last-child .col-6:first-child div ul li:not(:first-child) {
     width: 100%;
 }
 
-.button_style {
-    display: inline-block;
-    border-radius: 30px;
-    color: white;
-    padding: -5px 20px;
-}
-
-.button_style.button_black{
-    background-color: #363636;
-}
-
 header form ul li:last-child {
     width: 25px;
 }
@@ -72,4 +108,35 @@ header form ul li:last-child a img{
 header form ul li:not(:last-child) {
     margin-right: 20px;
 }
+
+/* main  */
+main {
+    width: 100%;
+}
+
+/* hero  */
+.hero_top {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0 50px 0;
+    margin-top: 100px;
+}
+
+.hero_item {
+    width: 200px;
+    padding-top: 30px;
+    padding-right: 40px;
+    /* margin-right: 10px; */
+}
+
+.hero_item img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.hero_bottom {
+    padding-bottom: 80px;
+}
+
 
