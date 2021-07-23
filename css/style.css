@@ -74,7 +74,6 @@ body {
 /* header  */
 header {
     width: 100%;
-    height: 100px;
     position: fixed;
     top: 0;
     left: 0;
@@ -126,7 +125,7 @@ header form a:last-child img{
 /* main  */
 
 main {
-    padding-top: 115px;
+    padding-top: 110px;
 }
 
 /* hero  */
@@ -135,13 +134,11 @@ main {
     background-position: center;
     background-size: cover;
     padding: 200px 0 50px 0;
-    width: 100%;
 }
 
 .hero_item {
-    max-width: 190px;
     padding-top: 30px;
-    padding-right: 40px;
+    padding-right: 10px;
 }
 
 .hero_item:hover img {
@@ -151,7 +148,6 @@ main {
 }
 
 .hero_item img {
-    width: 100%;
     border-radius: 20px;
 }
 
@@ -181,45 +177,49 @@ main {
 
 .ps5_item {
     max-width: 100px;
-}
+} 
 
-.ps5_item img {
-    width: 100%;
-}
 
-.sottolineato {
-    padding-bottom: 40px;
+.row.row-cols-3.row-cols-md-5 .col:hover {
     border-bottom: 2px solid #4895DA;
-}
-
-.ps5_item:hover {
-    padding-bottom: 40px;
-    border-bottom: 2px solid #4895DA;
-}
-
-.flex_item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ps5_item .col-4.col-md-2 {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
+    opacity: 0.7;
 }
 
 /* terza sezione  */
-.terza_sezione {
+
+.terza_sezione_top {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
     padding: 30px 0;
-    width: 100%;
+    padding-top: 50px;
 }
+
 
 .box_descrizione_white .simil_hero {
     padding-top: 5px;
 }
 
+.terza_sezione_bottom {
+    padding-bottom: 50px;
+    background-color: #1F1F1F;
+    color: white;
+}
 
+.gioco_item {
+    margin-top: 30px;
+}
+
+.gioco_item img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.titolo_terza_sezione {
+    padding-top: 20px;
+}
+
+.terza_sezione_bottom h6 {
+    font-size: 13px;
+}
