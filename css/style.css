@@ -192,7 +192,6 @@ main {
     background-position: center;
     background-size: cover;
     padding: 30px 0;
-    padding-top: 50px;
 }
 
 
@@ -223,3 +222,28 @@ main {
 .terza_sezione_bottom h6 {
     font-size: 13px;
 }
+
+/* quarta sezione  */
+.quarta_sezione {
+    padding: 50px 0;
+}
+.quarta_sezione .col-12 {
+    position: relative;
+}
+.quarta_sezione .col-12 span {
+    font-size: 15px;
+    position: absolute;
+}
+
+#sottotitolo{
+    color: #727272;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.quarta_sezione p {
+    color: #727272;
+    font-size: 18px;
+}
+
+
