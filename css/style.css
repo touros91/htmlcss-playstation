@@ -32,24 +32,38 @@ body {
     color: #3167E6;
     margin-bottom: 20px;
 }
-
+/* 
 .button_style:hover {
     border: 1px solid black;
     color: white;
     transform: scale(1.1);
+} */
+
+
+
+
+
+.button_style.button_red:hover,
+.button_style.button_blue:hover {
+    color: white;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px, rgb(205, 61, 16) 0px 0px 0px 6px;
+
 }
 
-.button_style.button_red:hover {
-    border: 1px solid white;
+.button_style.button_black:hover, 
+.button_style.button_blue:hover {
     color: white;
-    transform: scale(1.1);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px, rgb(45, 100, 230) 0px 0px 0px 6px;
 }
 
-.button_style.button_black:hover {
-    border: 1px solid #2D64E6;
-    color: white;
-    transform: scale(1.1);
+.button_style.button_grey:hover {
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(217, 218, 220) 0px 0px 0px 6px;
 }
+
+
+
+
+
 
 .box_descrizione_white {
     color: white;
@@ -147,9 +161,7 @@ main {
 }
 
 .hero_item:hover img {
-    border: 1px solid #2D64E6;
-    transform: scale(1.1);
-    padding: 1px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px, rgb(85, 91, 255) 0px 0px 0px 6px;
 }
 
 .hero_item img {
@@ -181,8 +193,17 @@ main {
 }
 
 .ps5_item {
-    max-width: 100px;
-} 
+    max-width: 160px;
+ }  
+
+ .ps5_item img {
+     width: 100%;
+ }
+
+ .ps5_item a {
+     text-decoration: none;
+     color:#424242;
+ }
 
 .row.row-cols-3.row-cols-md-5 .col:hover {
     border-bottom: 2px solid #4895DA;
@@ -213,10 +234,19 @@ main {
     margin-top: 30px;
 }
 
+.terza_sezione_bottom a {
+    text-decoration: none;
+    color: white;
+}
+
 .gioco_item img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 10px;
+}
+
+.terza_sezione_bottom a:hover .gioco_item img {
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px, rgb(85, 91, 255) 0px 0px 0px 6px;
 }
 
 .titolo_terza_sezione {
