@@ -30,6 +30,7 @@ body {
 .button_style.button_grey {
     background-color: #D9DADC;
     color: #3167E6;
+    margin-bottom: 20px;
 }
 
 .button_style:hover {
@@ -183,7 +184,6 @@ main {
     max-width: 100px;
 } 
 
-
 .row.row-cols-3.row-cols-md-5 .col:hover {
     border-bottom: 2px solid #4895DA;
     opacity: 0.7;
@@ -251,19 +251,13 @@ main {
 }
 
 /* quinta sezione  */
-
 .quinta_sezione {
     background-color: #BEBCBB;
     color: #353535;
 }
 
-.parte_sinistra_quinta_sezione {
-   padding-top: 70px; 
-}
-
 .quinta_sezione_img {
     max-width: 350px;
-    padding-bottom: 20px;
 }
 .quinta_sezione img {
     width: 100%;
@@ -272,3 +266,22 @@ main {
 .quinta_sezione p {
     margin-bottom: 30px;
 }
+
+/* sesta sezione  */
+.sesta_sezione h1 {
+    margin: 60px 0 20px 0;
+}
+ .sesta_sezione p {
+    color: #727272;
+    margin: 20px 0;
+    font-size: 20px;
+ }
+
+ .sesta_img {
+     max-width: 200px;
+ }
+
+ .sesta_sezione img {
+     width: 100%;
+     margin: 30px 0;
+ }
