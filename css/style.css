@@ -4,6 +4,12 @@ body {
 }
 
 /* common  */
+/* .container_80 {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+} */
+
 .button_style {
     display: inline-block;
     border-radius: 30px;
@@ -70,9 +76,12 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 10;
 }
-
+.header_top {
+    display: flex;
+    justify-content: flex-end;
+}
 header section {
     background-color: black;
     padding: 10px;
@@ -83,16 +92,6 @@ header section {
     display: inline-block;
 }    
 
-.logo_playstation_blu {
-    width: 60px;
-    height: 60px;
-    display: flex;
-}
-
-header nav .row {
-    width: 100%;
-}
-
 header nav .row .col-6 {
     display: flex;
 }
@@ -102,9 +101,9 @@ header nav li {
     align-items: center;
 }
 
-header .row:last-child .col-6:first-child div ul li:not(:first-child) {
+/* header .row:last-child .col-6:first-child div ul li:not(:first-child) {
     margin-right: 5px;
-}
+} */
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
@@ -112,15 +111,20 @@ header .row:last-child .col-6:first-child div ul li:not(:first-child) {
 
 .angle_down_grey {
     width: 10px;
-    height: 11px;
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 .angle_down_grey img {
     width: 100%;
 }
 
+header form a:last-child img{
+    width: 50%;
+    
+}
+/* 
 header form ul li:last-child {
     width: 25px;
 }
@@ -131,11 +135,12 @@ header form ul li:last-child a img{
 
 header form ul li:not(:last-child) {
     margin-right: 20px;
-}
+} */
 
 /* main  */
+
 main {
-    width: 100%;
+    padding-top: 115px;
 }
 
 /* hero  */
@@ -144,18 +149,19 @@ main {
     background-position: center;
     background-size: cover;
     padding: 200px 0 50px 0;
-    margin-top: 100px;
+    width: 100%;
 }
 
 .hero_item {
-    width: 200px;
+    width: 190px;
     padding-top: 30px;
     padding-right: 40px;
 }
 
 .hero_item:hover img {
-    border: 2px solid #2D64E6;
+    border: 1px solid #2D64E6;
     transform: scale(1.1);
+    padding: 1px;
 }
 
 .hero_item img {
@@ -167,6 +173,7 @@ main {
     padding-bottom: 80px;
 }
 
+/* sezione Ecco PS5  */
 .ecco_ps5 {
     margin-bottom: 50px;
 }
@@ -180,10 +187,6 @@ main {
 .ecco_ps5 .row div:first-child p {
     font-size: 23px;
     color: #787878;
-}
-
-.box_ps5 {
-    width: 600px;
 }
 
 .box_ps5 img {

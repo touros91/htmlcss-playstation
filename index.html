@@ -1,31 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayStation</title>
     <!-- CSS Bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- header  -->
     <header>
         <!-- header top  -->
-        <section>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-end">
-                        <div class="scritta_logo">
-                            <img src="img/sony_logo.svg" alt="Logo Sony">
-                        </div>
-                    </div>
-                </div>
+        <section class="header_top">
+            <div class="scritta_logo">
+                <img src="img/sony_logo.svg" alt="Logo Sony">
             </div>
         </section>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="img/play_logo.svg" alt="Logo PlayStation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Giochi</a>
+                            <div class="angle_down_grey">
+                                <img src="img/chevron-down-solid.svg" alt="">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Hardware</a>
+                            <div class="angle_down_grey">
+                                <img src="img/chevron-down-solid.svg" alt="">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Servizi</a>
+                            <div class="angle_down_grey">
+                                <img src="img/chevron-down-solid.svg" alt="">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Novità</a>
+                            <div class="angle_down_grey">
+                                <img src="img/chevron-down-solid.svg" alt="">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fai Acquisti</a>
+                            <div class="angle_down_grey">
+                                <img src="img/chevron-down-solid.svg" alt="">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Supporto</a>
+                            <div class="angle_down_grey">
+                                <img src="img/chevron-down-solid.svg" alt="">
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                    </ul>
+                    <!-- <li class="nav-item"> -->
+                    <!-- <a class="nav-link" href="#">Supporto</a> -->
+
+                    <form class="d-flex">
+                        <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <div class="nav-item d-flex  align-items-center">
+                                <a class="nav-link" href="#">My PlayStation</a>
+                                <div class="angle_down_grey">
+                                    <img src="img/chevron-down-solid.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn button_style button_black" type="submit">Accedi</button>
+
+                        <a class="d-flex justify-content-center" href=""><img id="lens" src="img/lens.svg"
+                                alt="Search icon"></a>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+
         <!-- header bottom  -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-6">
@@ -96,14 +180,17 @@
                         </div>  
                     </div>
                 </div>
-            </nav>
+            </nav> -->
     </header>
     <!-- main  -->
     <main>
+
         <!-- hero  -->
         <section>
             <section class="hero_top">
-                <div class="container-fluid">
+
+
+                <div class="container">
                     <div class="row">
                         <div class="col-4">
                             <div class="box_descrizione_white">
@@ -112,16 +199,20 @@
                                 </div>
                                 <div class="descrizione_testo">
                                     <h2>Rompi il cerchio</h2>
-                                    <p>Rialzati dopo ogni sconfitta e affronta una nuov sfida con ogni rinascita con questo esplosivo thriller fantascientifico, disponibile solo su PS5.</p>
+                                    <p>Rialzati dopo ogni sconfitta e affronta una nuov sfida con ogni rinascita con
+                                        questo esplosivo thriller fantascientifico, disponibile solo su PS5.</p>
                                 </div>
                                 <button class="btn button_style button_red" type="submit">Acquista ora</button>
                             </div>
                         </div>
                     </div>
-                </div>
+
             </section>
+
             <section class="hero_bottom">
-                <div class="container-fluid">
+
+
+                <div class="container">
                     <div class="row">
                         <div class="col-6 col-sm-4 col-lg-2">
                             <div class="hero_item">
@@ -155,63 +246,68 @@
                         </div>
                     </div>
                 </div>
+
+
             </section>
         </section>
         <!-- sezione Ecco la PlayStation 5  -->
-        <section class="ecco_ps5">
-            <div class="container-fluid">
-                <div class="row justify-content-evenly">
-                    <div class="col-12 text-center">
-                        <h6 class="colore_azzurro">PLAY HAS NO LIMITS</h6>
-                        <h2>Ecco la PlayStation 5</h2>
-                        <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center">
-                        <div class="box_descrizione_black">
-                            <div class="descrizione_testo">
-                                <h2>Console PlayStation 5</h2>
-                                <p>Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+        <section>
+            <div class="ecco_ps5">
+                <div class="container">
+                    <div class="row justify-content-evenly">
+                        <div class="col-12 text-center">
+                            <h6 class="colore_azzurro">PLAY HAS NO LIMITS</h6>
+                            <h2>Ecco la PlayStation 5</h2>
+                            <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex align-items-center">
+                            <div class="box_descrizione_black">
+                                <div class="descrizione_testo">
+                                    <h2>Console PlayStation 5</h2>
+                                    <p>Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+                                </div>
+                                <button class="btn button_style button_blue" type="submit">Acquista ora</button>
                             </div>
-                            <button class="btn button_style button_blue" type="submit">Acquista ora</button>
                         </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="box_ps5">
-                            <img src="img/playstation-5-thumb.png" alt="Console PlayStation 5">
+                        <div class="col-12 col-lg-6">
+                            <div class="box_ps5">
+                                <img src="img/playstation-5-thumb.png" alt="Console PlayStation 5">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 col-md-2 sottolineato flex_item">
-                        <div class="ps5_item flex_item">
-                            <img src="img/playstation-5-thumb.png" alt="Console PlayStation 5">
-                            <h6>Console PS5</h6>
+                        <div class="col-4 col-md-2 sottolineato flex_item">
+                            <div class="ps5_item flex_item">
+                                <img src="img/playstation-5-thumb.png" alt="Console PlayStation 5">
+                                <h6>Console PS5</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 col-md-2">
-                        <div class="ps5_item flex_item">
-                            <img src="img/joypad-thumb.png" alt="Joypad">
-                            <h6 class="text-center">Controller <br> wireless <br> DualSens</h6>
+                        <div class="col-4 col-md-2">
+                            <div class="ps5_item flex_item">
+                                <img src="img/joypad-thumb.png" alt="Joypad">
+                                <h6 class="text-center">Controller <br> wireless <br> DualSens</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 col-md-2">
-                        <div class="ps5_item flex_item">
-                            <img src="img/headset-thumb.png" alt="Cuffie wireless">
-                            <h6 class="text-center">Cuffie wireless con microfono PULSE 3</h6>
+                        <div class="col-4 col-md-2">
+                            <div class="ps5_item flex_item">
+                                <img src="img/headset-thumb.png" alt="Cuffie wireless">
+                                <h6 class="text-center">Cuffie wireless con microfono PULSE 3</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 col-md-2">
-                        <div class="ps5_item flex_item">
-                            <img src="img/remote-thumb.png" alt="Remote">
-                            <h6 class="text-center">Telecomando Media</h6>
+                        <div class="col-4 col-md-2">
+                            <div class="ps5_item flex_item">
+                                <img src="img/remote-thumb.png" alt="Remote">
+                                <h6 class="text-center">Telecomando Media</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4 col-md-2">
-                        <div class="ps5_item flex_item">
-                            <img src="img/camera-thumb.jpg" alt="Camera">
-                            <h6>Telecamera HD</h6>
+                        <div class="col-4 col-md-2">
+                            <div class="ps5_item flex_item">
+                                <img src="img/camera-thumb.jpg" alt="Camera">
+                                <h6>Telecamera HD</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section></section>
@@ -226,6 +322,9 @@
         <section></section>
     </footer>
     <!-- JS Bootstrap  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
