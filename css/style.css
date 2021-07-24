@@ -33,6 +33,11 @@ body {
     margin-bottom: 20px;
 }
 
+.button_style.button_lightgrey {
+    background-color: #F5F5F5;
+    color: black;
+}
+
 .button_style.button_red:hover,
 .button_style.button_blue:hover {
     color: white;
@@ -45,7 +50,8 @@ body {
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px, rgb(45, 100, 230) 0px 0px 0px 6px;
 }
 
-.button_style.button_grey:hover {
+.button_style.button_grey:hover,
+.button_style.button_lightgrey:hover {
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(217, 218, 220) 0px 0px 0px 6px;
 }
 
@@ -307,6 +313,24 @@ main {
 
  .settima_sezione {
     background-color: #161C3B;
+}
+
+/* ottava sezione  */
+
+.ottava_sezione {
+    padding: 50px 0;
+}
+
+.ottava_sezione .box_img {
+    max-width: 100px;
+    margin: 0 10px;
+}
+.ottava_sezione img {
+    width: 100%;
+}
+
+.ottava_sezione h4 {
+    margin-bottom: 40px;
 }
 
  
