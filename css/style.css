@@ -324,16 +324,62 @@ main {
 
 .ottava_sezione .box_img {
     max-width: 100px;
-    /* margin: 0 -100px; */
+    margin-top: 40px;
 }
+
 .ottava_sezione img {
     width: 100%;
-    margin-top: 40px;
 }
 
 .ottava_sezione h4 {
     margin-bottom: 30px;
 }
 
+/* footer */
+
+/* footer top  */
+.footer_bg {
+    background-color: #00439C;
+    font-size: 13px;
+    padding-top: 40px;
+}
+
+.footer_box_img {
+    max-width: 100px;
+    margin-bottom: 30px;
+}
+
+.footer_box_img img{
+    width: 100%;
+}
+
+.footer_box_globe_img {
+    width: 20px;
+    display: inline-block;
+    margin: 0 10px 40px 0;
+}
+
+.footer_box_globe_img img {
+    width: 100%;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_bottom_box_img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer_bottom_box_img img {
+    width: 100%
+}
  
 
