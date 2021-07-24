@@ -32,22 +32,11 @@ body {
     color: #3167E6;
     margin-bottom: 20px;
 }
-/* 
-.button_style:hover {
-    border: 1px solid black;
-    color: white;
-    transform: scale(1.1);
-} */
-
-
-
-
 
 .button_style.button_red:hover,
 .button_style.button_blue:hover {
     color: white;
     box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px, rgb(205, 61, 16) 0px 0px 0px 6px;
-
 }
 
 .button_style.button_black:hover, 
@@ -59,11 +48,6 @@ body {
 .button_style.button_grey:hover {
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(217, 218, 220) 0px 0px 0px 6px;
 }
-
-
-
-
-
 
 .box_descrizione_white {
     color: white;
@@ -88,6 +72,18 @@ body {
 .colore_azzurro {
     color: #338AD6;
     font-weight: 600;
+}
+
+.colore_bianco {
+    color: white;
+}
+
+.sezione_img {
+    max-width: 350px;
+}
+.sezione_img img {
+    width: 100%;
+    margin-top: 20px;
 }
 
 /* header  */
@@ -172,7 +168,7 @@ main {
     padding-bottom: 80px;
 }
 
-/* sezione Ecco PS5  */
+/* seconda sezione  */
 .ecco_ps5 {
     margin-bottom: 50px;
 }
@@ -219,7 +215,6 @@ main {
     padding: 30px 0;
 }
 
-
 .box_descrizione_white .simil_hero {
     padding-top: 5px;
 }
@@ -227,7 +222,6 @@ main {
 .terza_sezione_bottom {
     padding-bottom: 50px;
     background-color: #1F1F1F;
-    color: white;
 }
 
 .gioco_item {
@@ -286,15 +280,8 @@ main {
     color: #353535;
 }
 
-.quinta_sezione_img {
-    max-width: 350px;
-}
-.quinta_sezione img {
-    width: 100%;
-}
-
-.quinta_sezione p {
-    margin-bottom: 30px;
+.quinta_sezione p, .settima_sezione p {
+    margin: 30px 0;
 }
 
 /* sesta sezione  */
@@ -315,3 +302,12 @@ main {
      width: 100%;
      margin: 30px 0;
  }
+
+ /* settima sezione  */
+
+ .settima_sezione {
+    background-color: #161C3B;
+}
+
+ 
+
