@@ -42,13 +42,13 @@ body {
 .button_style.button_red:hover,
 .button_style.button_blue:hover {
     color: white;
-    box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px, rgb(205, 61, 16) 0px 0px 0px 6px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px, rgb(205, 61, 16) 0px 0px 0px 6px;
 }
 
 .button_style.button_black:hover, 
 .button_style.button_blue:hover {
     color: white;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px, rgb(45, 100, 230) 0px 0px 0px 6px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px, rgb(45, 100, 230) 0px 0px 0px 6px;
 }
 
 .button_style.button_grey:hover,
@@ -129,19 +129,55 @@ header nav li {
 }
 
 .angle_down_grey {
-    width: 10px;
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
+    max-width: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-right: 10px; */
+    display: inline-block;
 }
 
 .angle_down_grey img {
     width: 100%;
 }
 
+.box_img_header_bottom {
+    max-width: 50px;
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.box_img_header_bottom img{
+    width: 100%;
+}
+
+header .dropdown-menu.w-100.text-center .col-12 ul li {
+    display: inline-block;
+}
+
+.dropdown-menu.w-100.text-center.show .container-fluid:first-child{
+    border-bottom: 1px solid grey;
+}
+
+header .dropdown-menu.w-100.text-center .col-12 ul {
+    margin-right: 40px;
+}
+
+header .dropdown-menu.w-100.text-center .col-12 ul li { 
+    display: inline; white-space: pre; 
+}
+
+header .dropdown-menu.w-100.text-center .col-12 ul li:before  { 
+    content: " • "; 
+    font-size: 15px;
+}
+
+header .dropdown-menu.w-100.text-center .col-12 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 header form a:last-child img{
-    width: 50%;
-    
+    width: 50%;  
 }
 
 /* main  */
@@ -165,6 +201,7 @@ main {
 
 .hero_item:hover img {
     box-shadow: rgb(255, 255, 255) 0px 0px 0px 3px, rgb(85, 91, 255) 0px 0px 0px 6px;
+    transform: translate(-0%, -10%);
 }
 
 .hero_item img {
@@ -210,7 +247,16 @@ main {
 
 .row.row-cols-3.row-cols-md-5 .col:hover {
     border-bottom: 2px solid #4895DA;
+    opacity: 1;
+}
+
+.row.row-cols-3.row-cols-md-5 .col {
     opacity: 0.7;
+}
+
+#sottolineato {
+      border-bottom: 2px solid #4895DA;
+    opacity: 1;  
 }
 
 /* terza sezione  */
@@ -291,6 +337,10 @@ main {
     margin: 30px 0;
 }
 
+.quinta_sezione {
+    
+}
+
 /* sesta sezione  */
 .sesta_sezione h1 {
     margin: 60px 0 20px 0;
@@ -362,6 +412,8 @@ main {
 .footer_box_globe_img img {
     width: 100%;
 }
+
+/* footer bottom  */
 
 footer ul li {
     list-style: none;
