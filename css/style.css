@@ -149,14 +149,23 @@ header nav li {
     display: block;
 }
 
+.nav-item:hover .angle_blue {
+    transform: rotate(270deg);
+}
+
 .box_img_header_bottom {
     max-width: 50px;
     display: inline-block;
     margin-right: 10px; 
 }
 
-.box_img_header_bottom img{
+.box_img_header_bottom img, form .box_img_header_bottom.text-center a img{
     width: 100%;
+}
+
+.box_img_header_bottom a {
+    text-decoration: none;
+    color: black;
 }
 
 header .dropdown-menu.w-100 .col-12.d-flex.justify-content-center ul li {
@@ -434,7 +443,7 @@ footer ul li {
     margin-bottom: 15px;
 }
 
-footer ul li a {
+footer ul li a, footer a, footer a:hover{
     text-decoration: none;
     color: white;
 }
